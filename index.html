@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+    <title>Hidden Object Game</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <a id="menu" href="index.html">The dog of Baker Street</a>
+        <a id="easy" href="picture1.html"> Facile
+            <span style="font-size: 15px;">&#11088</span>
+            <image src="img_game/hidden_object_easy1.jpg" style="display:block ;" id="mini" /> <!-- Rappel, les id sont uniques-->
+        </a>
+        <a id="medium" href="picture2.html">Moyen
+            <span style="font-size: 15px;">&#11088 &#11088</span>
+            <image src="img_game/pic_meduim1.webp" style="display:block ;" id="mini" />
+        </a>
+        <a id="hard" href="picture3.html">Difficile
+            <span style="font-size: 15px;">&#11088 &#11088 &#11088</span>
+            <image src="img_game/pic_hard1.jpg" style="display:block ;" id="mini" />
+        </a>
+        <!--Audio in the side navbar - c'est la partie à récupérer-->
+        <audio id="music" type="audio/mp3" src="audio_files/lofi hip hop mix radio-beat to relaxstudy too[10 min].mp3"  controls style="margin-top: 50px; margin-left: 25px;">
+        </audio>
+
+    </div>
+
+    <div class="main">
+
+        <h1 class="home-title">
+            <a ><image id="logo" src="img_game/sherlock_chien.png" style="width:150px; height: 150px; margin-top: 100px; border-radius: 5px 5px;"></image></a>
+            <span class="text_menu">Tester votre abilité à trouver </span>
+            <span class="text_menu"> des objects cachés dans l'environnement </span>
+            <span class="text_menu">le plus rapidement possible!</span>
+        </h1>
+    </div>
+
+</body>
+
+</html>

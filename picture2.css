@@ -1,0 +1,219 @@
+body {
+
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.canvaa {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5px;
+    width: 60%;
+    height: 700px;
+    /* border: 1px solid silver; */
+
+}
+
+#second_picture {
+    background-image: url('img_game/pic_meduim1.webp');
+    background-repeat: no-repeat, repeat;
+    background-size: cover
+}
+
+#hippocampe {
+    -webkit-clip-path: polygon(29% 45%, 39% 45%, 39% 68%, 29% 68%);
+    clip-path: polygon(29% 45%, 39% 45%, 39% 68%, 29% 68%);
+    /* background-color: blue; */
+    left: 722px;
+    top: 329px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#heart {
+    -webkit-clip-path: polygon(53% 67%, 60% 64%, 62% 71%, 53% 83%, 42% 71%, 45% 64%);
+    clip-path: polygon(53% 67%, 60% 64%, 62% 71%, 53% 83%, 42% 71%, 45% 64%);
+    /* background-color: blue; */
+    left: 910px;
+    top: 172px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#bee {
+    -webkit-clip-path: polygon(13% 86%, 23% 86%, 10% 100%, 0% 100%);
+    clip-path: polygon(13% 86%, 23% 86%, 10% 100%, 0% 100%);
+    /* background-color: blue; */
+    left: 742px;
+    top: 146px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#ancre {
+    -webkit-clip-path: polygon(46% 52%, 56% 73%, 46% 84%, 37% 70%);
+    clip-path: polygon(46% 52%, 56% 73%, 46% 84%, 37% 70%);
+    /* background-color: blue; */
+    left: 1160px;
+    top: 334px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+
+
+#longue_vue {
+    -webkit-clip-path: polygon(0 96%, 56% 96%, 56% 100%, 0% 100%);
+    clip-path: polygon(0 96%, 56% 96%, 56% 100%, 0% 100%);
+    /* background-color: blue; */
+    left: 1140px;
+    top: 194px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+
+#icecream {
+    -webkit-clip-path: polygon(50% 84%, 65% 69%, 65% 84%, 58% 91%);
+    clip-path: polygon(50% 84%, 65% 69%, 65% 84%, 58% 91%);
+    /* background-color: blue; */
+    left: 1140px;
+    top: 414px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+
+#bag {
+    -webkit-clip-path: polygon(44% 48%, 47% 56%, 47% 70%, 31% 70%, 31% 48%);
+    clip-path: polygon(44% 48%, 47% 56%, 47% 70%, 31% 70%, 31% 48%);
+    /* background-color: blue; */
+    left: 1093px;
+    top: 294px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#slime {
+    -webkit-clip-path: polygon(44% 48%, 46% 56%, 38% 59%, 29% 56%, 31% 48%);
+    clip-path: polygon(44% 48%, 46% 56%, 38% 59%, 29% 56%, 31% 48%);
+    /* background-color: blue; */
+    left: 940px;
+    top: 424px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#locomotive {
+    -webkit-clip-path: polygon(4% 85%, 29% 78%, 29% 100%, 0% 100%);
+    clip-path: polygon(4% 85%, 29% 78%, 29% 100%, 0% 100%);
+    /* background-color: blue; */
+    left: 1400px;
+    top: 394px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#bell {
+    -webkit-clip-path: polygon(3% 88%, 9% 88%, 12% 100%, 0% 100%);
+    clip-path: polygon(3% 88%, 9% 88%, 12% 100%, 0% 100%);
+    /* background-color: blue; */
+    left: 867px;
+    top: 169px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+.listOfItems {
+    padding: 10px;
+    margin-top: 164px;
+    border: 2px solid rgb(60, 158, 47);
+    border-radius: 10px 10px;
+    width: fit-content;
+    display: inline;
+    box-shadow: 0 4px 8px 0 rgba(117, 114, 114, 0.2), 0 6px 20px 0 rgba(107, 104, 104, 0.19);
+}
+
+.listOfItems span {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.score {
+    background-color: #f9524e;
+    padding: 10px;
+    margin-right: 25px;
+    border: 2px solid rgb(161, 36, 36);
+    border-radius: 10px 10px;
+    width: fit-content;
+    margin-left: 570px;
+    display: inline;
+    box-shadow: 0 4px 8px 0 rgba(117, 114, 114, 0.2), 0 6px 20px 0 rgba(107, 104, 104, 0.19);
+}
+
+.congratulation {
+    left: 930px;
+    top: 285px;
+    position: absolute;
+    font-weight: bolder;
+    color: green;
+    visibility: hidden;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.effet_3d {
+    left: 930px;top: 285px;
+    position: absolute;
+    font-weight: bolder;
+    color: green;
+    visibility: hidden;
+    --couleur: 0, 0, 0;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo';
+    color: green;
+    text-shadow:
+        0 1px 0 #ccc,
+        0 2px 0 #acacac,
+        0 3px 0 #a0a0a0,
+        0 4px 0 #9b9a9a,
+        0 5px 0 #888787,
+        0 6px 1px rgba(var(--couleur), .1),
+        0 0 5px rgba(var(--couleur), .1),
+        0 1px 3px rgba(var(--couleur), .3),
+        0 3px 5px rgba(var(--couleur), .3),
+        0 5px 10px rgba(var(--couleur), .25),
+        0 10px 10px rgba(var(--couleur), .2),
+        0 20px 20px rgba(var(--couleur), .15);
+    font-size: calc(100vw / 10)
+}
+
+#timer {
+    padding: 10px;
+    margin-top: 90px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(117, 114, 114, 0.2), 0 6px 20px 0 rgba(107, 104, 104, 0.19);
+    border-radius: 10px;
+  }

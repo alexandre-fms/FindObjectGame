@@ -1,0 +1,215 @@
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.canvaa {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5px;
+    width: 60%;
+    height: 700px;
+    /* border: 1px solid silver; */
+
+}
+
+#first_picture {
+    background-image: url('img_game/hidden_object_easy1.jpg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover
+}
+
+#easy_01_id {
+    -webkit-clip-path: ellipse(19% 7% at 50% 50%);
+    clip-path: ellipse(19% 7% at 50% 50%);
+    /* background-color: blue; */
+    left: 560px;
+    top: 599px;
+    position: absolute;
+    width: 190px;
+    height: 170px;
+}
+
+#easy_02_id {
+    -webkit-clip-path: ellipse(19% 7% at 50% 50%);
+    clip-path: ellipse(19% 7% at 50% 50%);
+    /* background-color: blue; */
+    left: 1090px;
+    top: 429px;
+    position: absolute;
+    width: 160px;
+    height: 170px;
+
+}
+
+#easy_03_id {
+    -webkit-clip-path: polygon(26% 98%, 88% 84%, 64% 97%, 43% 100%);
+    clip-path: polygon(26% 98%, 88% 84%, 64% 97%, 43% 100%);
+    /* background-color: blue; */
+    left: 1390px;
+    top: 557px;
+    position: absolute;
+    width: 180px;
+    height: 200px;
+}
+
+#easy_04_id {
+    -webkit-clip-path: polygon(61% 73%, 76% 94%, 61% 88%, 36% 89%);
+    clip-path: polygon(61% 73%, 76% 94%, 61% 88%, 36% 89%);
+    /* background-color: blue; */
+    left: 1110px;
+    top: 499px;
+    position: absolute;
+    width: 180px;
+    height: 200px;
+
+}
+
+#easy_05_id {
+    -webkit-clip-path: polygon(30% 55%, 19% 35%, 17% 14%, 52% 30%, 90% 12%, 78% 51%, 91% 68%, 93% 89%, 82% 96%, 56% 75%, 23% 95%, 11% 85%);
+    clip-path: polygon(30% 55%, 19% 35%, 17% 14%, 52% 30%, 90% 12%, 78% 51%, 91% 68%, 93% 89%, 82% 96%, 56% 75%, 23% 95%, 11% 85%);
+    /* background-color: blue; */
+    left: 1245px;
+    top: 324px;
+    position: absolute;
+    width: 50px;
+    height: 40px;
+
+}
+
+#easy_06_id {
+    -webkit-clip-path: ellipse(11% 20% at 50% 50%);
+    clip-path: ellipse(11% 20% at 50% 50%);
+    /* background-color: blue; */
+    left: 870px;
+    top: 559px;
+    position: absolute;
+    width: 130px;
+    height: 200px;
+}
+
+#easy_07_id {
+    -webkit-clip-path: circle(28.0% at 50% 50%);
+    clip-path: circle(28.0% at 50% 50%);
+    /* background-color: blue; */
+    left: 1195px;
+    top: 479px;
+    position: absolute;
+    width: 100px;
+    height: 160px;
+}
+
+#easy_08_id {
+    -webkit-clip-path: circle(28.0% at 50% 50%);
+    clip-path: circle(28.0% at 50% 50%);
+    /* background-color: blue; */
+    left: 580px;
+    top: 369px;
+    position: absolute;
+    width: 90px;
+    height: 140px;
+}
+
+#easy_09_id {
+    -webkit-clip-path: circle(28.0% at 50% 50%);
+    clip-path: circle(28.0% at 50% 50%);
+    /* background-color: blue; */
+    left: 1600px;
+    top: 254px;
+    position: absolute;
+    width: 80px;
+    height: 140px;
+}
+
+#easy_10_id {
+    -webkit-clip-path: ellipse(11% 20% at 50% 50%);
+    clip-path: ellipse(11% 20% at 50% 50%);
+    /* background-color: blue; */
+    left: 945px;
+    top: 369px;
+    position: absolute;
+    width: 150px;
+    height: 190px;
+}
+
+.listOfItems {
+    padding: 10px;
+    margin-top: 164px;
+    border: 2px solid rgb(60, 158, 47);
+    border-radius: 10px 10px;
+    width: fit-content;
+    display: inline;
+    box-shadow: 0 4px 8px 0 rgba(117, 114, 114, 0.2), 0 6px 20px 0 rgba(107, 104, 104, 0.19);
+}
+
+.listOfItems span {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.score {
+    background-color: #f9524e;
+    padding: 10px;
+    margin-right: 25px;
+    border: 2px solid rgb(161, 36, 36);
+    border-radius: 10px 10px;
+    width: fit-content;
+    margin-left: 570px;
+    display: inline;
+    box-shadow: 0 4px 8px 0 rgba(117, 114, 114, 0.2), 0 6px 20px 0 rgba(107, 104, 104, 0.19);
+}
+
+.congratulation {
+    left: 930px;
+    top: 285px;
+    position: absolute;
+    font-weight: bolder;
+    color: green;
+    visibility: hidden;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.effet_3d {
+    left: 930px;top: 285px;
+    position: absolute;
+    font-weight: bolder;
+    color: green;
+    visibility: hidden;
+    --couleur: 0, 0, 0;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo';
+    color: green;
+    text-shadow:
+        0 1px 0 #ccc,
+        0 2px 0 #acacac,
+        0 3px 0 #a0a0a0,
+        0 4px 0 #9b9a9a,
+        0 5px 0 #888787,
+        0 6px 1px rgba(var(--couleur), .1),
+        0 0 5px rgba(var(--couleur), .1),
+        0 1px 3px rgba(var(--couleur), .3),
+        0 3px 5px rgba(var(--couleur), .3),
+        0 5px 10px rgba(var(--couleur), .25),
+        0 10px 10px rgba(var(--couleur), .2),
+        0 20px 20px rgba(var(--couleur), .15);
+    font-size: calc(100vw / 10)
+}
+
+#timer {
+    padding: 10px;
+    margin-top: 90px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(117, 114, 114, 0.2), 0 6px 20px 0 rgba(107, 104, 104, 0.19);
+    border-radius: 10px;
+  }

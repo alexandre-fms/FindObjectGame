@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="picture3.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <a id="menu" href="index.html">The dog of Baker Street</a>
+        <a id="easy" href="picture1.html"> Facile
+            <span style="font-size: 15px;">&#11088</span>
+            <image src="img_game/hidden_object_easy1.jpg" style="display:block ;" id="mini" /> <!-- Rappel, les id sont uniques-->
+        </a>
+        <a id="medium" href="picture2.html"> Moyen
+            <span style="font-size: 15px;">&#11088 &#11088</span>
+            <image src="img_game/pic_meduim1.webp" style="display:block ;" id="mini" />
+        </a>
+        <a id="hard" href="picture3.html"> Diffcile
+            <span style="font-size: 15px;">&#11088 &#11088 &#11088</span>
+            <image src="img_game/pic_hard1.jpg" style="display:block ;" id="mini" />
+        </a>
+        <!--Audio in the side navbar - c'est la partie à récupérer-->
+        <audio id="music" src="audio_files/lofi hip hop mix radio-beat to relaxstudy too[10 min].mp3"  controls style="margin-top: 50px; margin-left: 25px;">
+        </audio>
+    </div>
+
+    <p id="timer" style="display: inline; float: right;"></p>
+    <div style="height: 84px;"></div>
+    <div class="canvaa" id="third_picture">
+        <!-- creer des items pour image 2 => -->
+        <div id="bourse" class="hard" name="bourse"></div>
+        <div id="muffin" class="hard" name="muffin"></div>
+        <div id="lune" class="hard" name="lune"></div>
+        <div id="brosse" class="hard" name="brosse"></div>
+        <div id="note" class="hard" name="note"></div>
+        <div class="effet_3d" id="congrats">Bravo !</div>
+        <div id="plume" class="hard" name="plume"></div>
+        <div id="phare" class="hard" name="phare"></div>
+        <div id="orange" class="hard" name="orange"></div>
+        <div id="libellulle" class="hard" name="libellulle"></div>
+        <div id="appareil_photo" class="hard" name="appareil_photo"></div>
+    </div>
+    <div style="display: block; margin-top: 50px;">
+        <div class="score" id="score">Score : 0/10</div>
+        <div class="listOfItems">
+
+            <span name="bourse">bourse</span>
+            <span name="muffin">muffin</span>
+            <span name="lune">lune</span>
+            <span name="brosse">brosse</span>
+            <span name="note">note</span>
+            <span name="plume">plume</span>
+            <span name="phare">phare</span>
+            <span name="orange">orange</span>
+            <span name="libellulle">libellulle</span>
+            <span name="appareil_photo">appareil photo</span>
+
+        </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>

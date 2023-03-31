@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="picture2.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <a id="menu" href="index.html">The dog of Baker Street</a>
+        <a id="easy" href="picture1.html"> Facile
+            <span style="font-size: 15px;">&#11088</span>
+            <image src="img_game/hidden_object_easy1.jpg" style="display:block ;" id="mini" />
+            <!-- Rappel, les id sont uniques-->
+        </a>
+        <a id="medium" href="picture2.html"> Moyen
+            <span style="font-size: 15px;">&#11088 &#11088</span>
+            <image src="img_game/pic_meduim1.webp" style="display:block ;" id="mini" />
+        </a>
+        <a id="hard" href="picture3.html"> Difficile
+            <span style="font-size: 15px;">&#11088 &#11088 &#11088</span>
+            <image src="img_game/pic_hard1.jpg" style="display:block ;" id="mini" />
+        </a>
+        <!--Audio in the side navbar - c'est la partie à récupérer-->
+        <audio id="music" src="audio_files/lofi hip hop mix radio-beat to relaxstudy too[10 min].mp3" controls
+            style="margin-top: 50px; margin-left: 25px;">
+        </audio>
+    </div>
+
+    <p id="timer" style="display: inline; float: right;"></p>
+    <div style="height: 84px;"></div>
+    <div class="canvaa" id="second_picture">
+        <!-- creer des items pour image 2 => -->
+        <div id="hippocampe" class="medium" name="hippocampe"></div>
+        <div id="heart" class="medium" name="heart"></div>
+        <div id="bee" class="medium" name="bee"></div>
+        <div id="ancre" class="medium" name="ancre"></div>
+        <div id="longue_vue" class="medium" name="longue_vue"></div>
+        <div class="effet_3d" id="congrats">Bravo !</div>
+        <div id="icecream" class="medium" name="icecream"></div>
+        <div id="bag" class="medium" name="bag"></div>
+        <div id="slime" class="medium" name="slime"></div>
+        <div id="locomotive" class="medium" name="locomotive"></div>
+        <div id="bell" class="medium" name="bell"></div>
+    </div>
+    <div style="display: block; margin-top: 50px;">
+        <div class="score" id="score">Score : 0/10</div>
+        <div class="listOfItems">
+
+            <span name="hippocampe">hippocampe</span>
+            <span name="heart">coeur</span>
+            <span name="bee">abeille</span>
+            <span name="ancre">ancre</span>
+            <span name="longue_vue">longue vue</span>
+            <span name="icecream">glace</span>
+            <span name="bag">sac</span>
+            <span name="slime">slime</span>
+            <span name="locomotive">locomotive</span>
+            <span name="bell">cloche</span>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

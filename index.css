@@ -1,0 +1,131 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root{
+    --bg-color: black;
+}
+body {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; */
+    width: 100vw;
+    height: 100vh;
+    color: gray;
+    background-color: var(--bg-color);
+    font-family: 'tahoma', sans-serif;
+  }
+
+.sidebar {
+  height: 100%;
+  width: 400px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding-top: 16px;
+  padding-left: 10px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color:  #f9524e;
+}
+.sidebar a #mini {
+    width: 85%;
+    height: 85%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.main {
+  margin-left: 400px; /* Same as the width of the sidenav */
+  padding: 0px 10px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.main a {
+    font-family: 'Segoe UI', sans-serif;
+
+}
+h1{
+    font-size: 3em;
+    font-weight: normal;
+}
+#logo {
+    box-shadow: 10px 5px 5px gray;
+}
+.text_menu{
+    
+    margin-top:  50px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    line-height: 1.2;
+}
+.text_menu:hover {
+    color:  #f9524e;
+}
+
+.text_menu::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;
+    transform: translateX(-101%);
+}
+.text_menu::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;
+    transform: translateX(0);
+}
+.text_menu:nth-of-type(1)::before,
+.text_menu:nth-of-type(1)::after{
+    animation-delay: 1s;
+}
+.text_menu:nth-of-type(2)::before,
+.text_menu:nth-of-type(2)::after{
+    animation-delay: 1.5s;
+}
+@keyframes a-ltr-after{
+    0% {transform: translateX(-100%)}
+    100% {transform: translateX(101%)}
+}
+
+@keyframes a-ltr-before{
+    0% {transform: translateX(0)}
+    100% {transform: translateX(200%)}
+}
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+#menu{
+  margin-bottom: 25px;
+}
+
